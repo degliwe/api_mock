@@ -1,11 +1,95 @@
 {
-  "posts": [
+  "draft_visits": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "a123",
+      "title": "Lorentzweiler",
+      "description": " ",
+      "specs": [
+        {
+          "Surface": "383m2"
+        },
+        {
+          "Surface habitable": "246m2"
+        },
+        {
+          "Chambres": "5"
+        },
+        {
+          "Salles de bains": "3"
+        },
+        {
+          "Garages": "2"
+        },
+        {
+          "Prix": "1.236.000 TVA 3%"
+        }
+      ],
+      "contact": "contact@contact.com",
+      "visit": {},
+      "agencies": [
+        "a123",
+        "b123"
+      ]
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "profiles": [
+    {
+      "id": "a123",
+      "name": "name",
+      "logo": "url"
+    }
+  ],
+  "claims": [
+    {
+      "id": "a123",
+      "agency_id": "a123",
+      "agency_name": "espace immo",
+      "item_id": "a123",
+      "item_name": "Lorentzweiler"
+    }
+  ],
+  "visits": [
+    {
+      "id": "a123",
+      "title": "Lorentzweiler",
+      "description": " ",
+      "specs": [
+        {
+          "Surface": "383m2"
+        },
+        {
+          "Surface habitable": "246m2"
+        },
+        {
+          "Chambres": "5"
+        },
+        {
+          "Salles de bains": "3"
+        },
+        {
+          "Garages": "2"
+        },
+        {
+          "Prix": "1.236.000 TVA 3%"
+        }
+      ],
+      "contact": "contact@contact.com",
+      "visit": {},
+      "agencies": [
+        "a123",
+        "b123"
+      ]
+    }
+  ],
+  "requests": [],
+  "users": [],
+  "subscriptions": [],
+  "visited": [
+    {
+      "id": "a123",
+      "phone": "+352 123 456 789",
+      "email": "contact@contact.com",
+      "item": "a123"
+    }
+  ]
 }
