@@ -1,4 +1,37 @@
 {
+  "draft_visits": [
+    {
+      "id": "a123",
+      "title": "Lorentzweiler",
+      "description": " ",
+      "specs": [
+        {
+          "Surface": "383m2"
+        },
+        {
+          "Surface habitable": "246m2"
+        },
+        {
+          "Chambres": "5"
+        },
+        {
+          "Salles de bains": "3"
+        },
+        {
+          "Garages": "2"
+        },
+        {
+          "Prix": "1.236.000 TVA 3%"
+        }
+      ],
+      "contact": "contact@contact.com",
+      "visit": {},
+      "agencies": [
+        "a123",
+        "b123"
+      ]
+    }
+  ],
   "profiles": [
     {
       "id": "a123",
@@ -46,6 +79,37 @@
         "a123",
         "b123"
       ]
+    },
+    {
+      "id": "b123",
+      "title": "Lorentzweiler",
+      "description": " ",
+      "specs": [
+        {
+          "Surface": "383m2"
+        },
+        {
+          "Surface habitable": "246m2"
+        },
+        {
+          "Chambres": "5"
+        },
+        {
+          "Salles de bains": "3"
+        },
+        {
+          "Garages": "2"
+        },
+        {
+          "Prix": "1.236.000 TVA 3%"
+        }
+      ],
+      "contact": "contact@contact.com",
+      "visit": {},
+      "agencies": [
+        "a123",
+        "b123"
+      ]
     }
   ],
   "visited": [
@@ -53,7 +117,15 @@
       "id": "a123",
       "phone": "+352 123 456 789",
       "email": "contact@contact.com",
-      "item": "a123"
+      "item": "a123",
+      "request": true
+    },
+    {
+      "id": "b123",
+      "phone": "+352 123 456 789",
+      "email": "contact@contact.com",
+      "item": "a123",
+      "request": false
     }
   ]
 }
